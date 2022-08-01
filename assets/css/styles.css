@@ -1,0 +1,11 @@
+/* background */
+
+.bg-orange {
+    background-color: #e67b13;
+}
+
+.pt-10 {
+ padding-top: 10rem;
+}
+
+.opacity-75	{opacity: 0.75;}
