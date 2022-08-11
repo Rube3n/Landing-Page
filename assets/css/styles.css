@@ -1,11 +1,21 @@
-/* background */
-
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 .bg-orange {
   background-color: #e67b13 !important;
 }
 
+.phone-04 {
+  background-image: url("../img/phone-04.png");
+}
+
 .bg-image-mtg {
-  background-image: url("../img/pexelsphoto618545.jpeg") !important;
+  background-image: url("../img/pexelsphoto618545.jpg") !important;
 }
 
 .bg-img-avion {
@@ -18,6 +28,26 @@
 
 .bg-black-100 {
   background-color: #292a33;
+}
+
+.bg-brown {
+  background-color: #333333;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.text-beige {
+  color: #f5c79b;
 }
 
 .pt-10 {
@@ -41,6 +71,10 @@
   opacity: 0.2;
 }
 
+.opacity-75 {
+  opacity: 0.75;
+}
+
 .font-face {
   font-family: "../font/Comfortaa_Thin.ttf";
 }
@@ -58,6 +92,19 @@
   width: 100vw;
 }
 
+.w-72 {
+  width: 18rem;
+} /* 3
+288px */
+
+.w-96 {
+  width: 24rem;
+} /* 384px */
+
+.h-80 {
+  height: 20rem;
+} /* 320px */
+
 .z-0 {
   z-index: 0;
 }
@@ -68,3 +115,79 @@
 .mt {
   margin-top: -10rem;
 }
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+} /* 40px */
+
+.px-14 {
+  padding-left: 3.5rem; /* 56px */
+  padding-right: 3.5rem;
+} /* 56px */
+
+.pt-12 {
+  padding-top: 3rem;
+} /* 48px */
+
+.pt-24 {
+  padding-top: 6rem;
+} /* 64px */
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.h-72 {
+  height: 18rem;
+} /* 288px */
+
+.w-64 {
+  width: 16rem;
+} /* 256px */
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.mt-36 {
+  margin-top: -9rem;
+} /* 144px */
+
+.mb-36 {
+  margin-bottom: -8rem;
+} /* 96px */
+.inline {
+  display: inline;
+}
+
+.text-xs {
+  font-size: 0.75rem; /* 16px */
+  line-height: 1rem;
+} /* 24px */
+
+.h-24 {
+  height: 6rem;
+} /* 96px */
+
+.m-0 {
+  margin: 0px;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+.ml-12	{margin-left: 3rem;} /* 48px */
+
+.pl-12	{padding-left: 3rem;} /* 48px */
