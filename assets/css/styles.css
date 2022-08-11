@@ -1,23 +1,7 @@
 /* background */
 
 .bg-orange {
-  background-color: #e67b13 !important;
-}
-
-.bg-image-mtg {
-  background-image: url("../img/pexelsphoto618545.jpeg") !important;
-}
-
-.bg-img-avion {
-  background-image: url("../img/avion\ \(2\).png");
-}
-
-.bg-black {
-  background-color: #292d33;
-}
-
-.bg-black-100 {
-  background-color: #292a33;
+  background-color: #e67b13;
 }
 
 .pt-10 {
@@ -66,5 +50,5 @@
 }
 
 .mt {
-  margin-top: -10rem;
+    margin-top: -10rem;
 }
