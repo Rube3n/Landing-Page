@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+  .md-w-screen {
+    width: 100vw !important;
+  }
+
+  .md-w-253 {
+    width: 253px;
+  }
+
+  .md-w-273 {
+    width: 273px;
+  }
+
+  .md-w-546 {
+    width: 543px;
+  }
+
+  .md-w-72 {
+    width: 18rem;
+  } /* 288px */
+
+  .md-w-96 {
+    width: 24rem;
+  } /* 384px */
+
+  .md-text-lg {
+    font-size: 1.125rem; /* 18px */
+  }
+
+  .md-mb-48 {
+    margin-bottom: 1rem;
+  } /* 192px */
+
+  .md-flex {
+    display: flex;
+  }
+
+  .md-justify-center {
+    justify-content: center;
+  }
+
+  .md-h-96 {
+    height: 24rem;
+  } /* 384px */
+
+  .md-h-477 {
+    height: 416px;
+  }
+
+  .md-h-816 {
+    height: 816px;
+  }
+
+  .md-mt-10 {
+    margin-top: -10 !important;
+  }
+}

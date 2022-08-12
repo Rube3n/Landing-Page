@@ -1,11 +1,15 @@
-*,
+/* *,
 ::before,
 ::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+} */
+
+.overflow-x-hidden {
   overflow-x: hidden;
 }
+
 .bg-orange {
   background-color: #e67b13 !important;
 }
@@ -48,6 +52,10 @@
 
 .text-beige {
   color: #f5c79b;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 .pt-10 {
@@ -142,6 +150,10 @@
   padding-bottom: 4rem;
 }
 
+.h-70 {
+  height: 50rem;
+} /* 288px */
+
 .h-72 {
   height: 18rem;
 } /* 288px */
@@ -187,7 +199,18 @@
   padding-right: 0.5rem;
 }
 
+.ml-12 {
+  margin-left: 3rem;
+} /* 48px */
 
-.ml-12	{margin-left: 3rem;} /* 48px */
+.pl-12 {
+  padding-left: 3rem;
+} /* 48px */
 
-.pl-12	{padding-left: 3rem;} /* 48px */
+.w-full {
+  width: 100%;
+}
+
+.w-26 {
+  width: 26.5rem;
+} /* 256px */
