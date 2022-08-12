@@ -16,12 +16,9 @@ Git-Hub
 Doc Boostrap
 Photopea
 
-
-
 # Deadline
 
 12/08/2022
-
 
 # Mission
 
@@ -67,3 +64,11 @@ GTMetrix – objectif : un score de
 votre coach-formateur, qui se trouve
 être le commanditaire du projet et…
 encaissez les critiques !
+
+# Gtmetrix Grade
+
+Grade B
+
+Performance 88%
+
+Structure 86%
